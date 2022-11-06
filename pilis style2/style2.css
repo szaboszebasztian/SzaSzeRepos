@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    
+}
+body{
+    background: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px 0 10px 0;
+
+}
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white
+
+}
+header{
+    background: url(./img/logo2.jpg) no-repeat #A4B553;
+    margin: 0 auto;
+    height: 250px;
+}
+header h1{
+    color: #657030;
+    text-transform: uppercase;
+    padding: 100px 0 0 430px;
+    font-size: 5em;
+}
+.container{
+    height: auto;
+}
+#sidebar{
+    width: 20%;
+    float: left;
+    height: 856px;
+    background-color: black;
+
+}
+#sidebar ul li{
+    list-style-type: none;
+}
+.menu{
+    background: black;
+    width: 200px;
+    height: 200px;
+}
+.menu h3{
+    background-color: black;
+    color: white;
+    font-size: .8em;
+    padding: 20px 0 0 15px;
+
+}
+.menu ul{
+    font-size: .8em;
+    color: #6a6f50;
+}
+.menupont{
+    display: inline-block;
+    padding: 15px 0 10px 15px;
+    
+}
+#content{
+    width: 79.999%;
+    float: left;
+
+}
+#content .news{
+    line-height: 1.5;
+    margin: 0 0 50px 0;
+    padding: 0 100px 0 10px;
+    text-align: justify;
+}
+#content .news p{
+    font-size: 1em;
+    color: #6a6f50;
+}
+#content .news img{
+    float: left;
+    margin: 0 20px 10px 0;
+}
+#content .news h2{
+    background-color: #CCCCCC;
+    margin: 20px 0;
+    color: white;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.news::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.news{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    height: 49.9999%;
+}
+footer{
+   background-color: #203926;
+   color: white;
+   text-align: center;
+   font-size: .7em;
+}
